@@ -1,0 +1,118 @@
+body{background-image: url("3475843.jpeg");}
+
+}
+/****Navigation****/
+nav{
+  width: 1000px;
+  margin: 0 auto;
+  /* Configure it for Chrome and Safari */
+	-webkit-animation: pulse 2s infinite;
+}
+  /* Webkit keyframe animation */
+@-webkit-keyframes pulse{
+	0%{		box-shadow:0 0 1px #008aff;}
+	50%{	box-shadow:0 0 10px #008aff;}
+	100%{	box-shadow:0 0 1px #008aff;}
+}
+nav ul{
+  background:#2D2E2F;
+  padding: 5px;
+
+  -webkit-box-shadow: 2px 2px 2px #111;
+}
+nav ul li{
+  display: inline;
+  margin: 10px;
+  padding: 5px;
+}
+nav ul li a{
+  text-decoration: none;
+  color: #999;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 25px;
+}
+nav ul li a:hover{
+  color: #00b4ff;
+  text-decoration: underline;
+}
+img {
+  width: 300px;
+  height: 300px;
+  text-align: center;
+ border: 10px solid 	#44008b;
+}
+body {
+  background-image: url("3475843.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+h1 {
+color:whitesmoke ;
+  text-align:  center;
+  background-color: white;
+;
+
+}
+div.transbox {
+  margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+}
+
+div.transbox h1{
+  margin: 2%;
+  font-weight: bold;
+  color: #000000;
+}
+.content_img{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-right: 10px;
+}
+
+/*Text*/
+.content_img div{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: black;
+    color: white;
+    margin-bottom: 5px;
+    font-family: sans-serif;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: visibility 0s, opacity 0.5s linear; 
+    transition: visibility 0s, opacity 0.5s linear;
+}
+
+/* Hover*/
+.content_img:hover{
+    cursor: pointer;
+}
+
+.content_img:hover div{
+    width: 150px;
+    padding: 8px 15px;
+    visibility: visible;
+    opacity: 0.7; 
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+.Resume{background-color: black;
+        text-align: center;}
+h1{color: white; text-decoration-line: underline;
+  text-decoration-thickness: auto; }
